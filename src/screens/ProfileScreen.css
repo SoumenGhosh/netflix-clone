@@ -51,6 +51,7 @@
     font-weight: 600;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .profileScreen__plans {
@@ -91,4 +92,10 @@
     font-weight: 800;
     height: 30px;
     float: right;
+}
+
+.profileScreen__signOut:hover {
+    opacity: 0.8;
+    transition: all 0.2s;
+    transform: scale(1.03);
 }
